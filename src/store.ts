@@ -1,9 +1,9 @@
+import axios from 'axios'
+import { ref, watch } from 'vue'
+import brands from './db/brands.json'
 import catalog from './db/catalog.json'
 import stock from './db/stock.json'
-import brands from './db/brands.json'
-import { ref, watch } from 'vue'
 import { ICart, IProduct } from './interfaces'
-import axios from 'axios'
 export const filters = ref<{
   brand: null | number,
   year: null | number,

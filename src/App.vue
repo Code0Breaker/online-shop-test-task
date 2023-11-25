@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Brands from './components/filters/Brands.vue'
-import Years from './components/filters/Years.vue'
-import Stores from './components/filters/Stores.vue'
 import Fieldset from 'primevue/fieldset';
+import Brands from './components/filters/Brands.vue';
+import Stores from './components/filters/Stores.vue';
+import Years from './components/filters/Years.vue';
 import Products from './components/products/Products.vue';
 import { convertBy, filters } from './store';
 

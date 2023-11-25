@@ -19,4 +19,4 @@ const updateStoreFilter = (store: number) => {
             <Button label="Store 2" size="small" @click="updateStoreFilter(2)" :disabled="filters.store === 2"/>
         </div>
     </div>
-</template>../../store
+</template>

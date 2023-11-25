@@ -14,4 +14,4 @@ const setBrandFilter = (id: number) => {
             <Button v-for="brand of brands" :disabled="filters.brand === brand.id" :label="brand.name" size="small" @click="setBrandFilter(brand.id)" />
         </div>
     </div>
-</template>../../store
+</template>

@@ -15,4 +15,4 @@ const setYearFilter = (choosenYear: number) => {
             <Button v-for="year of years" :disabled="filters.year === year" :label="year.toString()" size="small" @click="setYearFilter(year)" />
         </div>
     </div>
-</template>../../store
+</template>

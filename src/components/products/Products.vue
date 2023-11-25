@@ -92,4 +92,4 @@ const addToCart = (data: IProduct) => {
 
 
 
-</script>../../store
+</script>
